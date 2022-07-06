@@ -40,6 +40,12 @@
             width: 100%;
         }
 
+        #gent-img > img,
+        .height-img {
+            width: auto;
+            height: 100vh;
+        }
+
         .images{
             display: flex;
             overflow-x: scroll;
@@ -123,8 +129,14 @@
                 margin-bottom: 0%;
             }
 
-            *{
-            
+            img{
+            width: 100%;
+            }
+
+            #gent-img > img,
+            .height-img {
+            width: 100%;
+            height: auto;
             }
 
             
@@ -170,14 +182,14 @@
         </div> <!---end of TEXT-->
 
         <div id="gent-img" class="images">
-            <img src="images/gentri_one.png" width="500px" height="auto" loading="lazy">
-            <img src="images/gentri_two.png" width="500px" height="auto" loading="lazy">
-            <img src="images/gentri_three.png" width="500px" height="auto" loading="lazy">
-            <img src="images/gentri_four.png" width="500px" height="auto" loading="lazy">
-            <img src="images/gentri_five.png" width="500px" height="auto" loading="lazy">
-            <img src="images/gentri_six.png" width="500px" height="auto" loading="lazy">
-            <img src="images/gentri_seven.png" width="500px" height="auto" loading="lazy">
-            <img src="images/gentri_eight.png" width="500px" height="auto" loading="lazy">
+            <img src="images/gentri_one.png" loading="lazy">
+            <img src="images/gentri_two.png" loading="lazy">
+            <img src="images/gentri_three.png" loading="lazy">
+            <img src="images/gentri_four.png" loading="lazy">
+            <img src="images/gentri_five.png" loading="lazy">
+            <img src="images/gentri_six.png" loading="lazy">
+            <img src="images/gentri_seven.png" loading="lazy">
+            <img src="images/gentri_eight.png" loading="lazy">
         </div>
     </div> <!---end of Images Gent-->
 
@@ -193,7 +205,7 @@
         </div> <!---end of ONE TEXT-->
 
         <div id="news-img" class="images">
-            <img src="images/NFNH_sept_resize.png" loading="lazy">
+            <img src="images/NFNH_sept.jpg" loading="lazy">
         </div>
     </div> <!---end of Images NEWS-->
 
@@ -216,7 +228,7 @@
         </div> <!---end of Text MINUTES-->
 
         <div id="minutes-img" class="images">
-            <img src="images/minutes.gif" loading="lazy">
+            <img class="height-img" src="images/minutes.gif" loading="lazy">
         </div>
     </div> <!---end of Images MINUTES-->
 
@@ -241,7 +253,8 @@
         </div> <!---end of Text PAPA-->
 
         <div id="papa-img" class="images">
-            <img src="images/papa_intag.png" loading="lazy">
+            <img class="height-img" src="images/papa-intag-left.jpg" loading="lazy">
+            <img class="height-img" src="images/papa-intag-right.jpg" loading="lazy">
         </div>
     </div> <!---end of Images PAPA-->
 
@@ -296,7 +309,7 @@
         </div> <!---end of TEXT ONE-->
 
         <div id="happy-spring-img" class="images">
-            <img src="images/happy-spring.png" loading="lazy">
+            <img class="height-img" src="images/happy-spring.png" loading="lazy">
         </div>
     </div> <!---end of IMAGES Happy Spring-->
 
@@ -349,7 +362,7 @@
         </div> <!---end of Text FLORIDA-->
 
         <div id="florida-img" class="images">
-            <img src="images/florida.png"  loading="lazy">
+            <img class="height-img" src="images/florida.png"  loading="lazy">
         </div>
     </div> <!---end of Images FLORIDA-->
 
@@ -369,7 +382,7 @@
         </div> <!---end of Text AM RADIO-->
 
         <div id="am-radio-img" class="images">
-            <img src="images/salted_nuts.jpg" loading="lazy">
+            <img class="height-img" src="images/salted_nuts.jpg" loading="lazy">
         </div>
     </div> <!---end of Images AM RADIO-->
 

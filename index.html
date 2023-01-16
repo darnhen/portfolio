@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Darnell Henderson</title>
 
-    <link rel="stylesheet" href="styles.css">
-
     <meta name="author" content="Darnell Henderson Pereira">
     <meta name="description" content="Darnell Henderson Pereira is an artist and designer.">
     <meta name="keywords" content="Graphic Design, Identity, Publications, Time, 
@@ -16,399 +14,128 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 
-    <style>
-
-        *, html, body{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        .container{
-            display: grid;
-            grid-template-columns: 1fr 3fr;
-            border: 0px solid rgb(0, 255, 0);
-            width: 97%;
-            height: auto;
-            margin-bottom: 3%;
-            margin-left: auto;
-            margin-right: auto;
-            font-family: 'Arial Narrow', Arial, sans-serif, sans-serif;
-        }
-
-        img{
-            width: 100%;
-            margin-right: 1%;
-            cursor: e-resize;
-        }
-
-        #gent-img > img,
-        .height-img {
-            width: auto;
-            height: 100vh;
-        }
-
-        /*id > tag 
-        calling out the specific tag in that container*/
-
-        .images{
-            display: flex;
-            overflow-x: scroll;
-        }
-
-        .divider{
-            margin-bottom: 3%;
-            border: 0px solid blue;
-            font-size: 3vw;
-            color: rgb(0, 255, 0);
-        }
-
-        #last{
-            margin-bottom: 1%;
-        }
-
-       .divider p{
-           margin-left: .5%;
-       }
-
-        h2{
-            margin-bottom: 1%;
-        }
-
-        p{
-            width: 88%;
-            text-align: justify;
-            line-height: 2.7vh;
-        }
-
-        #formal-info{
-            text-align: left;
-            line-height: 4vh;
-            margin-top: 12px;
-            margin-left: 12px;
-        }
-
-        span{
-            font-size: 20px;
-        }
-
-        #me{
-            margin-top: 1%;
-            font-size: 25px;
-            margin-bottom: 1%;
-        }
-
-        a:visited{
-            text-decoration: none !important;
-            color: black;
-        }
-
-        a:hover{
-            text-decoration: none !important;
-            color: blue;
-        }
-
-        a{
-            text-decoration: none !important;
-        }
-
-        .mobile-message{
-            display: none;
-        }
-
-        @media screen and (max-width: 1000px){
-
-            .container{
-                grid-template-columns: 1fr;
-            }
-
-            p{
-                margin-bottom: 5%;
-                text-align: justify;
-            }
-
-            #formal-info{
-                font-size: 15px;
-                margin-bottom: 0%;
-            }
-
-            #gent-img > img,
-            .height-img {
-            width: auto;
-            height: 100vh;
-            }
-
-            #me{
-            font-size: 20px;
-            }
-
-            #formal-info{
-            text-align: left;
-            line-height: 4vh;
-            }
-
-            
-        }
-
-    </style>
+    <link rel="stylesheet" href="assets/style.css">
 </head>
-
 <body>
 
-    <div id="me" class="container">
-        <div class="text"><h1>Darnell Henderson
-        <div id = "clock" onload="currentTime()"></div>
-        </h1>
+    <header>
+        <h1>Darnell Henderson</h1>
+        <p>working and living in new haven, ct + <a href="cv.html" target="_blank">cv</a></p>
+    </header>
 
-        </div> <!---end of Text ME-->
+    <article id="container">
 
-        <div id="me-img" class="images">
-            <p id="formal-info">Currently: Graphic Design MFA Candidate '24 @Yale<br>
-            Formerly: B.F.A. in Graphic Arts '21 @University of South Florida<br>
-            Currently: In the studio.<br>
-            Hopefully: Reading a book on a train. <br>
-            Biz Inquiries: bobbyyhennyy@gmail.com
-        </p>
-        </div>
-    </div> <!---end of Images ME-->
+    <!-- <h1><i>Books</i></h1> -->
 
-    </div> <!---ene of Container ME-->
+    <!--Books, Publications-->
 
-    <div class="top divider"> <p>&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;</p>
-    </div> <!---end of DIVIDER-->
+    <section>
+        <img src="images/translation-book.gif" loading="lazy">
+    </section>
 
-    <div id="gent" class="container">
+    <section>
+        <img src="images/minutes.gif" loading="lazy">
+    </section>
 
-        <div class="text"><h2>Gentrification Book</h2>
-            <p>17in x 5.5in pamphet with a 8.5in x 5.5in insert. 
-                <br><br> Section A details the various ways gentrification takes
-                place. Insert B explores methods of combatting gentrification
-                through case studies. Typrographic manipulation used as a device
-                for relaying the sensation of stretching to reconfigure a space while
-                also overwhelming it. 
-            </p>
-        </div> <!---end of TEXT-->
+    <section>
+        <img src="images/gentri-book.gif" loading="lazy">
+    </section>
 
-        <div id="gent-img" class="images">
-            <img src="images/gentri-1.jpg" loading="lazy">
-            <img src="images/gentri-2.jpg" loading="lazy">
-            <img src="images/gentri-3.jpg" loading="lazy">
-            <img src="images/gentri-4.jpg" loading="lazy">
-        </div>
-    </div> <!---end of Images Gent-->
+    <!--Physical Objects-->
 
-    </div> <!---end of Container Gent-->
+    <section class="group">
+        <img src="images/cd-01.png" alt="" laoding="lazy">
+        <img src="images/cd-02.png" alt="" laoding="lazy">
+        <img src="images/cd-03.png" alt="" laoding="lazy">
+        <img src="images/cd-04.png" alt="" laoding="lazy">
+    </section>
 
-    <div class="divider"> <p>&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;</p>
-    </div> <!---end of DIVIDER-->
+    <section class="group">
+        <img src="images/handn-01.jpg" alt="" laoding="lazy">
+        <img src="images/handn-02.jpg" alt="" laoding="lazy">
+        <img src="images/handn-03.jpg" alt="" laoding="lazy">
+        <img src="images/handn-04.jpg" alt="" laoding="lazy">
+    </section>
 
-    <div id="minutes" class="container">
+       <!--Websites-->
 
-        <div class="text"><h2>Minutes after Midnight</h2>
-            <p> 2-color RISO book <br> 
-                8in x 4in <br><br>
-                Happened upon the term “minutes before midnight”, 
-                which The Bulletin of Atomic Scientist (science nonprofit) 
-                use to determine how close humanity is to destruction at 
-                the hands of nuclear weapons and global warming. Imaging 
-                a scenario in which this destruction has taken place, I recontextualized my photos and texts that had taken place 
-                after midnight to live in this post-apocalyptic world.</p>
-        </div> <!---end of Text MINUTES-->
+    <section>
+        <img src="images/twenty-four-hours.gif" alt="" loading="lazy">
+    </section>
 
-        <div id="minutes-img" class="images">
-            <img class="height-img" src="images/minutes.gif" loading="lazy">
-        </div>
-    </div> <!---end of Images MINUTES-->
+    <section>
+        <img src="images/script-site.gif" alt="" loading="lazy">
+    </section>
 
-    </div> <!---ene of Container MINUTES-->   
-    
-    <div class="divider"> <p>&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;</p>
-    </div> <!---end of DIVIDER-->
+    <!--Flyers-->
 
-    <div id="prelim-picnic" class="container">
+    <section>
+        <img src="images/darnell_octover_NFNH.png" alt="" loading="lazy" style="filter: invert(100%);">
+    </section>
 
-        <div class="text"><h2>Prelim Picnic + Labor Day Wknd Prtyyyyy</h2>
-        </div> <!---end of Text PRELIM PICNIC-->
+    <section>
+        <img src="images/halloween_flyer.jpg" alt="" loading="lazy">
+    </section>
 
-        <div id="minutes-img" class="images">
-            <img class="height-img" src="images/prelim-picnic.png" loading="lazy">
-        </div>
-    </div> <!---end of Images MINUTES-->
+    <section>
+        <img src="images/contempt.jpg" alt="" loading="lazy">
+    </section>
 
-    </div> <!---ene of Container MINUTES-->   
-    
-    <div class="divider"> <p>&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;</p>
-    </div> <!---end of DIVIDER-->
+    <section>
+        <img src="images/abu_shaheen.jpg" alt="" loading="lazy">
+    </section>
 
+    <section>
+        <img src="images/rahim_fortune.jpg" loading="lazy">
+    </section>
 
-    <div id="soa" class="container">
+    <section>
+        <img src="images/kyle_cunt.jpg" loading="lazy">
+    </section>
 
-        <div class="text"><h2>Yale School of Art Flyers</h2>
-            <p>
-                <ol>
-                    <li>SOA End-of-Year Party</li>
-                    <li>Sept. News from New Haven ('21)</li>
-                </ol>
-            </p>
-        </div> <!---end of Text SOA-->
+    <section>
+        <img src="images/end-of-yr-party.jpg" loading="lazy">
+    </section>
 
-        <div id="soa-img" class="images">
-            <img src="images/end-of-yr-party.jpg" loading="lazy">
-            <img src="images/news-from-new-haven-sept.jpg" loading="lazy">
-        </div>
-    </div> <!---end of Images SOA-->
+    <section>
+        <img src="images/news-from-new-haven-sept.jpg" loading="lazy">
+    </section>
 
-    </div> <!---ene of Container SOA-->
+    <!--Collaborations-->
 
-    <div class="divider"> <p>&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;</p>
-    </div> <!---end of DIVIDER-->
+    <h1>collaborations with <a href="https://richplease.info/" target="blank">kyle richardson</a></h1>
 
-    <div id="translation" class="container">
+    <ol> <p>In-progress</p>
+        <li>Website + Identity for Dannielle Bowman</li>
+        <li>*All the Minutes Fit Together* Wendy's Subway Publication</li>
+    </ol>
 
-        <div class="text"><h2>1, or, uh, 2, or even, uh, three</h2>
-            <p>6-color RISO, Japanese stab bound book<br>
-                11in x 15in <br><br>
-                During the pandemic to pass time I would make extremely 
-                graphic illustrations while calling various friends. I returned to this, again referencing photos 
-                from my camera roll to inspire shapes, forms, ideas. Thinking of this as both visual translation, 
-            I added an element of verbal translation by conducting a game of telephone with peers. </p>
-            
-        </div> <!---end of TEXT ONE-->
+    <section class="website-link">
+        <p> <a href="https://yump.yale.edu/" target="blank">YUMP, Yale Urban Media Project, with Kyle Richardson</a> </p>
+    </section>
 
-        <div id="translation" class="images">
-            <img class="height-img" src="images/translation-book.gif" loading="lazy">
-        </div>
-    </div> <!---end of IMAGES Translation-->
+    <!-- <section>
+        <img src="images/my-birthday-invite.jpg" loading="lazy">
+    </section> -->
 
-    </div> <!---ene of CONTAINER Translation--> 
+    <!-- <section>
+        <img src="images/the-cock.jpg" loading="lazy">
+        <p>The Cook, The Thief, His Wife, Her Lover (Peter Greenaway, 1989) Screening Flyer (RISO)</p>
+    </section> -->
 
-    <div class="divider"> <p>&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;</p>
-    </div> <!---end of DIVIDER-->
+    <section>
+        <img src="images/salted_nuts.jpg" loading="lazy">
+    </section>
 
-    <div id="happy-spring" class="container">
+    <h1>work for <a href="https://sojourners4justice.press/" target="blank">sojourners 4 justice</a></h1>
 
-        <div class="text"><h2>Happy Spring</h2>
-            <p>7 color riso</p>
-            
-        </div> <!---end of TEXT ONE-->
+    <section class="group">
+        <img src="images/sjp_vector.png" loading="lazy" style="filter: invert(100%);">
+        <img src="images/sjp-logo.jpg" loading="lazy">
+        <img src="images/neta-stamp.jpg" loading="lazy">
+    </section>
 
-        <div id="happy-spring-img" class="images">
-            <img class="height-img" src="images/happy-spring.png" loading="lazy">
-        </div>
-    </div> <!---end of IMAGES Happy Spring-->
-
-    </div> <!---ene of CONTAINER Happy Spring--> 
-
-    <div class="divider"> <p>&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;</p>
-    </div> <!---end of DIVIDER-->
-
-    <div id="photo-lecture" class="container">
-
-        <div class="text"><h2>Yale Photo Lecture Series</h2>
-            <p>    
-                <ol>
-                    <li>Manal Abu-Sheehan</li>
-                    <li>Rahim Fortune</li>
-                </ol>
-           </p>
-        </div> <!---end of Text Photo Lecture-->
-
-        <div id="photo-lecture-img" class="images">
-            <img class="height-img" src="images/abu_shaheen.jpg" loading="lazy">
-            <img class="height-img" src="images/rahim_fortune.jpg" loading="lazy">
-        </div>
-    </div> <!---end of Images Photo Lecture-->
-
-    </div> <!---ene of Container Photo Lecture-->   
-    
-    <div class="divider"> <p>&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;</p>
-    </div> <!---end of DIVIDER-->
-
-    <div id="father" class="container">
-
-        <div class="text"><h2>Father</h2>
-            <p>Illustrations of my father and I sourced from
-                family photo albums.
-                <ol>
-                    <li>Us laying</li>
-                    <li>Me drinking a Capri Sun</li>
-                    <li>Him sleeping, Me wide awake</li>
-                </ol>
-            </p>
-        </div> <!---end of Text FATHER-->
-
-        <div id="father-img" class="images">
-            <img src="images/father_one.png" loading="lazy">
-            <img src="images/father_two.png" loading="lazy">
-            <img src="images/father_three.png" loading="lazy">
-        </div>
-    </div> <!---end of Images FATHER-->
-
-    </div> <!---ene of Container FATHER--> 
-
-    <div class="divider" style="color:blue;"> <p>&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;</p>
-    </div> <!---end of DIVIDER-->
-
-    <div id="kyle" class="container">
-
-        <div class="text">
-            <h2>Collaborations with <a href="https://richplease.info/" target="_blank"><u>Kyle Richardson</u></a></h2>
-            <p>
-                <ol>
-                    <li>Kyle's Birthday Gift</li>
-                    <li>The Cook, The Thief, His Wife, Her Lover (Peter Greenaway, 1989) Screening</li>
-                    <li>23rd Birthday Invite</li>
-                    <li><a href="https://open.spotify.com/playlist/1JxZV1dTjPfLyCh9lu3x7e?go=1&utm_source=embed_player_m&utm_medium=desktop&nd=1" target="_blank"><u>Salted Nuts</u></a> Podcast Flyer</li>
-                    <li>Contempt (Jean Luc Godard, 1963) Screening</li>
-                </ol>
-            </p>
-
-        </div> <!---end of Text Kyle-->
-
-        <div id="kyle-images" class="images">
-            <img class="height-img" src="images/kyle_cunt.jpg" loading="lazy">
-            <img class="height-img" src="images/the-cock.jpg" loading="lazy">
-            <img class="height-img" src="images/my-birthday-invite.jpg" loading="lazy">
-            <img class="height-img" src="images/salted_nuts.jpg" loading="lazy">
-            <img class="height-img" src="images/contempt.jpg" loading="lazy">
-        </div>
-    </div> <!---end of Images Kyle-->
-
-
-    </div> <!---end of Container Kyle--> 
-
-    <div class="divider" style="color:red;"> <p>&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;</p>
-    </div> <!---end of DIVIDER-->
-
-    <div id="sjp" class="container">
-
-        <div class="text">
-            <h2>Logo work for <a href="https://sojourners4justice.com/about/" target="_blank"><u>Sojourner's for Justice Press</u></a></h2>
-            <p></p>
-
-        </div> <!---end of Text SJP-->
-
-        <div id="sjp-images" class="images">
-            <img class="height-img" src="images/sjp-logo.jpg" loading="lazy">
-            <img class="height-img" src="images/sjp-website.jpg" loading="lazy">
-        </div>
-    </div> <!---end of Images SJP-->
-
-
-    </div> <!---end of Container SJP--> 
-
-    <div id="last" class="divider"> <p>&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;&#10040;</p>
-    </div> <!---end of DIVIDER-->
-
-
-
-     <!-- Scripts go at the bottom of your <body> element, below your HTML.
-      Here's a link to the jquery library -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-      <!-- And here's a link to our javascript, written in an external js file called main.js -->
-      <script src="main.js"></script>
-
+    </article>
     
 </body>
 </html>

@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'Kisses';
+    src: url("Hershey-Noailles-Times-Mono-Regular.woff") format("woff");
+    
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.portion {
+    width: 300px;
+    height: 200px;
+    margin: 25px;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    font-family: 'Kisses';
+    font-weight: bolder;
+    font-kerning: 1px;
+}
+
+/* columnOne begins */
+
+#one{
+    background-position: 0px 0px;
+}
+
+#two{
+    background-position: -320px 0px;
+}
+
+#three{
+    background-position: -640px 0px;
+}
+
+#four{
+    background-position: -960px 0px;
+}
+
+/* columnTwo begins */
+
+#five{
+    background-position: 0px -200px;
+}
+
+#six{
+    background-position: -320px -200px;
+}
+
+#seven{
+    background-position: -640px -200px;
+}
+
+#eight{
+    background-position: -960px -200px;
+}
+
+/* columnThree begins */
+
+#nine{
+    background-position: 0px -400px;
+}
+
+#ten{
+    background-position: -320px -400px;
+}
+
+#eleven{
+    background-position: -640px -400px;
+}
+
+#twelve{
+    background-position: -960px -400px;
+}

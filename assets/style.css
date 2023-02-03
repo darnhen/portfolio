@@ -61,19 +61,24 @@ table {
 body{
     font-family: "Silly",'Arial Narrow', Arial, Helvetica, sans-serif;
     background-color: black;
+    width: 98vw;
 }
 
-#container{
+section{
     display: grid;
     grid-template-columns: 1fr;
+    border: 0px solid red;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    /* height: 100vh; */
     /* grid-template-columns: repeat(auto-fill, minmax(100vh, 1fr)); */
     /*u have to adjust what the 100px to be whatever minimum size is u want ur column to be and the right is the max */
 }
 
 img{
-    width: auto;
     height: 100vh;
-    padding: 50px;
+    padding: 20px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -147,6 +152,10 @@ body::-webkit-scrollbar {
 
     .group{
         grid-template-columns: 1fr;
+    }
+
+    section.web{
+        display: none;
     }
 
 }

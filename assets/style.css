@@ -58,104 +58,17 @@ table {
     src: url("ComicMono.woff") format("woff");
 }
 
-body{
-    font-family: "Silly",'Arial Narrow', Arial, Helvetica, sans-serif;
-    background-color: black;
-    width: 98vw;
+div.waiting-not-watching{
+    width: 500px;
+    height: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
-section{
-    display: grid;
-    grid-template-columns: 1fr;
-    border: 0px solid red;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90vw;
-    /* height: 100vh; */
-    /* grid-template-columns: repeat(auto-fill, minmax(100vh, 1fr)); */
-    /*u have to adjust what the 100px to be whatever minimum size is u want ur column to be and the right is the max */
-}
-
-img{
-    height: 100vh;
-    padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-.group{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 15px;
-}
-
-.group img{
+div.waiting-not-watching img{
     width: 100%;
-    height: auto;
-}
-
-p, h1, ol, li{
-    color: white;
-    word-break: break-all;
-    padding: 15px;
-}
-
-h1{
-    font-size: 30px;
-    text-align: center;
-}
-
-header{
-    text-align: center;
-}
-
-header p{
-    padding: 0px;
-}
-
-.website-link p{
-    /* text-align: center; */
-    text-decoration-line: underline;
-}
-
-a:visited{
-    color: white;
-}
-
-::selection{
-    color: aqua;
-}
-
-body::-webkit-scrollbar {
-    display: none;
-}
-
-/* .weighted{
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    overflow-y: scroll;
-}
-
-.weighted img{
-    width: auto;
-    height: 100vh;
-} */
-
-@media screen and (max-width: 1000px){
-
-    img{
-        width: 100vw;
-        height: auto;
-        padding: 10px;
-    }
-
-    .group{
-        grid-template-columns: 1fr;
-    }
-
-    section.web{
-        display: none;
-    }
-
+    height: 100%;
 }

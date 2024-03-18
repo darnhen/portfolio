@@ -1,1 +1,163 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*, html, body{
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+a:visited {
+	color: blue;
+}
+
+::selection, section p a:hover{
+	color: pink;
+ 	background-color: greenyellow;
+}
+
+/*CSS Begins!*/
+
+@font-face {
+    font-family: "Silly-Regular";
+    src: url("assets/ComicNeue-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Silly-Bold";
+    src: url("assets/ComicNeue-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Silly-Italic";
+    src: url("assets/ComicNeue-Italic.woff") format("woff");
+}
+
+body{
+	background: linear-gradient(pink, greenyellow);
+}
+
+header{
+	width: 90vw;
+	height: auto;
+	margin: 25px 0px 25px 25px;
+	/* margin-left: auto;
+	margin-right: auto; */
+	border: 0px solid black;
+	font-family: "Silly-Bold", Arial, Helvetica, sans-serif;
+}
+header h1{
+	font-size: 60px;
+	text-align: left;
+}
+header p, footer p{
+	font-size: 35px;
+}
+
+p.info{
+	margin-top: 10px;
+	text-align: left;
+	line-height: normal;
+	font-family: "Silly-Regular", Arial, Helvetica, sans-serif;
+}
+
+article.big-mama{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	width: 95vw;
+	height: auto;
+	border: 0px solid blue;
+	padding: 15px;
+	background-color: white;
+}
+
+section{
+	width: 80%;
+	height: auto;
+	border: 0px red solid;
+	margin: 15px;
+	margin-right: 25px;
+}
+
+section img{
+	width: 100%;
+	height: auto;
+}
+
+section p{
+	margin-top: 10px;
+	font-family: "Silly-Bold", Arial, Helvetica, sans-serif;
+	color: black;
+}
+
+footer{
+	width: 100vw;
+	height: auto;
+	padding: 15px;
+	font-family: "Silly-Regular", Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 1200px) {
+	article.big-mama{
+		grid-template-columns: 1fr;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	header{
+		width: 90vw;
+	}
+
+	section{
+		margin-left: auto;
+		margin-right: auto;
+	}
+  }

@@ -111,7 +111,7 @@ p.info{
 
 article.big-mama{
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
 	width: 95vw;
 	height: auto;
 	border: 0px solid blue;

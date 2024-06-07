@@ -61,12 +61,12 @@ a:visited {
 
 ::selection, section p a:hover{
 	color: pink;
- 	background-color: greenyellow;
+ 	background-color: #adff2f;
 }
 
 /*CSS Begins!*/
 
-@font-face {
+/* @font-face {
     font-family: "Silly-Regular";
     src: url("assets/ComicNeue-Regular.woff") format("woff");
 }
@@ -79,10 +79,12 @@ a:visited {
 @font-face {
     font-family: "Silly-Italic";
     src: url("assets/ComicNeue-Italic.woff") format("woff");
-}
+} */
 
 body{
-	background: linear-gradient(pink, greenyellow);
+	background: black;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
 }
 
 header{
@@ -92,7 +94,6 @@ header{
 	/* margin-left: auto;
 	margin-right: auto; */
 	border: 0px solid black;
-	font-family: "Silly-Bold", Arial, Helvetica, sans-serif;
 }
 header h1{
 	font-size: 60px;
@@ -106,24 +107,28 @@ p.info{
 	margin-top: 10px;
 	text-align: left;
 	line-height: normal;
-	font-family: "Silly-Regular", Arial, Helvetica, sans-serif;
 }
 
 article.big-mama{
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr;
 	width: 95vw;
 	height: auto;
 	border: 0px solid blue;
 	padding: 15px;
-	background-color: white;
+	background-color: black;
+}
+
+p.year{
+	margin-top: 50px;
+	font-size: 40px;
 }
 
 section{
-	width: 80%;
+	width: 65%;
 	height: auto;
 	border: 0px red solid;
-	margin: 15px;
+	margin: 25px;
 	margin-right: 25px;
 }
 
@@ -134,15 +139,13 @@ section img{
 
 section p{
 	margin-top: 10px;
-	font-family: "Silly-Bold", Arial, Helvetica, sans-serif;
-	color: black;
+	color: white;
 }
 
 footer{
 	width: 100vw;
 	height: auto;
 	padding: 15px;
-	font-family: "Silly-Regular", Arial, Helvetica, sans-serif;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -152,11 +155,20 @@ footer{
 		margin-right: auto;
 	}
 
+	header p, footer p{
+		font-size: 25px;
+	}
+
 	header{
 		width: 90vw;
 	}
 
+	p.year{
+		font-size: 20px;
+	}
+
 	section{
+		width: 90%;
 		margin-left: auto;
 		margin-right: auto;
 	}
